@@ -43,3 +43,5 @@ pybind11Targets.cmake
 /pybind11/share/*
 /docs/_build/*
 .ipynb_checkpoints/
+.pybuild/
+obj-x86_64-linux-gnu/
