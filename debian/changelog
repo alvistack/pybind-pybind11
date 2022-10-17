@@ -1,0 +1,5 @@
+python-pybind11 (100:2.10.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/pybind/pybind11/releases/tag/v2.10.0
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Sat, 16 Jul 2022 11:03:10 +0800
