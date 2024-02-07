@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+SHELL := /bin/bash
+
+export PYBUILD_NAME=pybind11
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DPYBIND11_INSTALL="ON" \
+		-DPYBIND11_TEST="OFF"
+
+override_dh_auto_build:
+	dh_auto_build --buildsystem=pybuild
+	dh_auto_build
+
+override_dh_auto_install:
+	dh_auto_install --buildsystem=pybuild
+	dh_auto_install
+	find debian/python3-pybind11/usr/lib/python*/*-packages -type f -name '*.pyc' -exec rm -rf {} \;
+	fdupes -qnrps debian/python3-pybind11/usr/lib/python*/*-packages
+
+override_dh_auto_test:
+
+override_dh_auto_clean:
+
+%:
+	dh $@ --buildsystem=cmake --with python3
