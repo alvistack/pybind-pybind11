@@ -1,0 +1,3 @@
+usr/include
+usr/share/cmake usr/lib
+usr/share/pkgconfig/pybind11.pc
