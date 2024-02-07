@@ -1,0 +1,3 @@
+pybind11-dev: copyright-without-copyright-notice
+pybind11-dev: initial-upload-closes-no-bugs
+pybind11-dev: zero-byte-file-in-doc-directory
