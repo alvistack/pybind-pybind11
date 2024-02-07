@@ -36,3 +36,5 @@ MANIFEST
 sosize-*.txt
 pybind11Config*.cmake
 pybind11Targets.cmake
+.pybuild/
+obj-x86_64-linux-gnu/
