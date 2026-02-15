@@ -1,0 +1,7 @@
+*.substvars
+*debhelper*
+.debhelper
+files
+pybind11-dev
+python3-pybind11
+tmp

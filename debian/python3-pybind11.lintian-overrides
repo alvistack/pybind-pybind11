@@ -1,0 +1,4 @@
+python3-pybind11: copyright-without-copyright-notice
+python3-pybind11: initial-upload-closes-no-bugs
+python3-pybind11: no-manual-page
+python3-pybind11: zero-byte-file-in-doc-directory
