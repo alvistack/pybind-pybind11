@@ -52,3 +52,6 @@ CMakeUserPresents.json
 .ruby-version
 .*cache*/
 *.lock
+
+.pybuild/
+obj-x86_64-linux-gnu/
